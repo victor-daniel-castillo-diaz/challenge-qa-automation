@@ -1,3 +1,5 @@
 
 resources/chromedriver.exe
 resources/geckodriver.exe
+target/
+allure-results/

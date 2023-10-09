@@ -25,10 +25,10 @@ public class ShoppingCarStep extends BasePage
 		productsPage = new ProductsPage();
 		String currentTitle = productsPage.getTitleLabel();
 		String expectedTitle = data.get(0).get(0);
-		assertEquals("Se esperaba el titulo "+expectedTitle+" pero se encontro "+currentTitle, expectedTitle, currentTitle);
+		assertEquals("Título incorrecto", currentTitle, expectedTitle);
 		int currentNumberOfItems = productsPage.getNumberOfItems();
 		int expectedNumberOfItems = 6;
-		assertEquals("Se esperaban "+expectedNumberOfItems+" artículos pero se encontrarón "+currentNumberOfItems, expectedNumberOfItems, currentNumberOfItems);
+		assertEquals("Número de artículos incorrecto", currentNumberOfItems, expectedNumberOfItems);
 		boolean currentIsTwitterLinkPresent = productsPage.isTwitterLinkPresent();
 		assertEquals("Se esperaba enlace a Twitter pero no se encontro", true, currentIsTwitterLinkPresent);
 		boolean currentIsFacebookLinkPresent = productsPage.isFacebookLinkPresent();

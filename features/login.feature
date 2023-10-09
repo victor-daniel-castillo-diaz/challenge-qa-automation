@@ -9,7 +9,7 @@ Scenario: IS-001 Login with valid username and password
   | standard_user |
   | secret_sauce |
   Then verify products screen
-  | Products |
+  | Productos |
 
 @IS-002
 Scenario: IS-002 Trying to log in with a blocked user's data

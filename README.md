@@ -27,6 +27,13 @@ Se generan el reporte de allure en la carpeta `/allure-results`
 
 En el reporte de allure, se configuro la toma de evidencias (screen shots) antes y despues de la ejecución de cada paso, no se encontro como configurar en la herramienta de reportes que se incluya la evidencia (screen shot) al producirse un error 
 
+Para ver las evidencias (screen shots) de antes y despues de casa paso 
+Seleccionar una de los grupos o suites de pruebas
+Seleccionar un caso de prueba
+Abrir el apartado Tear down
+Abrir algunos de los adjuntos 
+Dar clic en los archivos .png 
+
 ## Para ejecutar las pruebas
 
 Para Windows, ejecute el script `run.bat`, que se encuentra en la carpeta raiz del proyecto, por defecto está configurado para ejecutar en Chrome, si desea ejecutar en Firefox, editar el archivo `run.bat` en la línea 2, reemplazar `Chrome` por `Firefox`. 
@@ -41,7 +48,7 @@ eliminar reporte anterior
 ejecutar las prueba
 `clean test -Dcucumber.filter.tags="@shoppingCart or @login or @departments-mercado-libre"` 
 
-abrie el reporte con los resultados de las pruebas
+abrir el reporte con los resultados de las pruebas
 `allure serve`
 
 
