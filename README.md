@@ -8,9 +8,13 @@
 Se automatizaron 2 casos de prueba de cada funcionalidad más 1 del servicio web
 
 Scenario: IS-001 Login with valid username and password
+
 Scenario: IS-002 Trying to log in with a blocked user's data
+
 Scenario: APCC-001 Check counter of items added to the shopping cart
+
 Scenario: IS-002 Check items in shopping cart
+
 Scenario: DML-001 validate departments of Mercado Libre
 
 ver los archivos de características en la carpeta `/features`
