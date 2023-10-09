@@ -6,6 +6,7 @@
 ## Instalación de Allure
 
 Para Windows, ejecute el script `install-allure.bat`, que se encuentra en la carpeta `/resources`
+
 Para Mac, ejecute el script `install-allure.sh`, que se encuentra en la carpeta `/resources` 
 
 ## Instalación de Chrome driver
@@ -34,11 +35,13 @@ Abrir el apartado Tear down
 Abrir algunos de los adjuntos 
 Dar clic en los archivos .png 
 
-## Para ejecutar las pruebas
+## Ejecución de las pruebas
 
 Para Windows, ejecute el script `run.bat`, que se encuentra en la carpeta raiz del proyecto, por defecto está configurado para ejecutar en Chrome, si desea ejecutar en Firefox, editar el archivo `run.bat` en la línea 2, reemplazar `Chrome` por `Firefox`. 
 
+
 Para Mac, debe definirse el valor `Chrome` o `Firefox` en la propiedad browser del archivo `config.properties` que se encuentra en la ruta `src\test\java\com\saucedemo` para definir en que navegador ejecutar las pruebas 
+
 
 Luego, ejecute los siguientes comandos en una consola 
 
